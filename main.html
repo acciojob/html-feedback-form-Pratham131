@@ -8,9 +8,36 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
 
+	<main>
+		<form action="#" method="post">
+			<div>
+				<h1>Feedback Form</h1>
+			</div>
+
+			<div>
+				<label for="name">Name:*</label>
+				<input type="text" name="name" id="name" min="3" max="50" required>
+			</div>
+			
+			<div>
+				<label for="portfolio">Portfolio:*</label>
+				<input type="file" name="portfolio" id="portfolio" required>
+			</div>
+
+			<div>
+				<label for="favColor">Favourite Color:</label>
+				<input type="color" name="favColor" id="favColor">
+			</div>
+
+			<div>
+				<label for="likeness">Likeness:</label>
+				<input type="range" name="likeness" id="likeness" min="0" max="100">
+			</div>
+		</form>
+	</main>
+	
 </body>
 
 </html>
